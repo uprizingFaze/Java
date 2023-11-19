@@ -14,15 +14,34 @@ public class Main {
         System.out.println("El perimetro del radio " + radio + " es " + perimetro);
 
     }
-//Creacion de clases
+
+
+    //Creacion de clases
     public class Circulo {
         //atributos
-        int x,y, radio;
+        int x, y, radio;
 
-        //Objetos
+        //Crear objetos
         Circulo circulo1;
         Circulo circulo2;
 
+        //Crear objetos y asignar un espacio en la memoria
+        Circulo() {
+            circulo1 = new Circulo();
+            circulo2 = new Circulo();
+        }
+
+    }
+
+    //Elementos de una clase, describe un tipo de objetos con caracteristicas comunes
+    //La informacion de un objeto se almacena en atributos
+    public class Vehiculo {
+        String matricula;
+        String marca;
+        String modelo;
+        String color;
+        double tarifa;
+        boolean disponible;
 
     }
 
