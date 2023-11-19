@@ -7,10 +7,23 @@ public class Main {
     public static void main(String[] args) {
         //Calcular perimetro de un circunferencia
         final double PI = 3.14;
-        double radio = 25.0, perimetro, perimetro2;
+        double radio = 25.0, perimetro;
+        int mesNacimiento = 0;
 
         perimetro = 2 * PI * radio;
         System.out.println("El perimetro del radio " + radio + " es " + perimetro);
 
     }
+//Creacion de clases
+    public class Circulo {
+        //atributos
+        int x,y, radio;
+
+        //Objetos
+        Circulo circulo1;
+        Circulo circulo2;
+
+
+    }
+
 }
